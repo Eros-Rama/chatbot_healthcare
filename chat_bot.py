@@ -197,6 +197,9 @@ def tree_to_code(tree, feature_names):
             break
         except:
             print("Enter valid input.")
+
+
+    asdf = 0
     def recurse(node, depth):
         indent = "  " * depth
         if tree_.feature[node] != _tree.TREE_UNDEFINED:
